@@ -59,7 +59,7 @@ namespace GroupAnagramsTests
             var inputs = new List<string> {"eat"};
             var result = grouper.Group(inputs);
             Assert.AreEqual(1, result.Count);
-            Assert.AreEqual(result.ElementAt(0).ElementAt(0), "eat");
+            Assert.AreEqual(result.ElementAt(0).ElementAt(0), "eat");  // [ [ "eat" ] ]
         }
 
         [Test]
